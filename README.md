@@ -10,6 +10,7 @@ An intelligent, modular, and real-time intrusion detection and network monitorin
 - [Approach (Flowchart)](#approach-flowchart)
 - [Woking of the Project](#working-of-the-project)
 - [Demo](#demo)
+- [Installation](#installation)
 - [Contact](#contact)
 
 ## Introduction
@@ -117,6 +118,28 @@ A Python-based real-time network intrusion detection and monitoring system using
 
 https://github.com/user-attachments/assets/d0b232f9-9ede-4788-8ebf-e0d91e6548d9
 
+## Installation
+
+To get started with the project, follow these steps:
+
+1. Clone the repository:
+   
+   ```bash
+   git clone https://github.com/Dhrishita/diabetes-prediction.git
+   cd diabetes-prediction
+   
+2. Create a virtual environment and activate it:
+   
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+
+3. Install the required dependencies:
+   
+   ```bash
+   pip install -r requirements.txt
+   
+4. Run the prediction script:
 
 
 ## Contact
