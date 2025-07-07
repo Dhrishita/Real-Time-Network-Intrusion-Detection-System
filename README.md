@@ -36,7 +36,7 @@ A Python-based real-time network intrusion detection and monitoring system using
 
 ## Approach (Flowchart)
 
-
+![image](https://github.com/user-attachments/assets/c7bd305e-b479-4875-af9c-9af64baa2bf4)
 
 
 ## Working of the Project
@@ -50,8 +50,10 @@ A Python-based real-time network intrusion detection and monitoring system using
       - Record-keeping and analysis
         
    - The system supports continuous packet capture, and users can terminate it anytime using CTRL+C.
+     
 
 ![image](https://github.com/user-attachments/assets/db7dcb07-1cdd-4171-ac80-a40a61073b62)
+
 
 2. **Random Forest-based Static Intrusion Detection**:
    
@@ -79,6 +81,7 @@ A Python-based real-time network intrusion detection and monitoring system using
      - Epoch 10, Loss: 0.685
     
   - After training, the model was saved as a PyTorch file (lstm_model.pth), ready for real-time inference.
+    
 
 ![image](https://github.com/user-attachments/assets/d2d31fc5-b7ef-40fc-93b5-40575fd9e412)
 
@@ -93,6 +96,7 @@ A Python-based real-time network intrusion detection and monitoring system using
      - Forecasts via LSTM predictions
        
    - The dashboard updates every second (interval=1000 ms), giving the user a real-time view of the network status.
+     
 
 ![image](https://github.com/user-attachments/assets/a0761607-95e4-499a-b01c-7e8a7b53dda3)
 
@@ -105,12 +109,14 @@ A Python-based real-time network intrusion detection and monitoring system using
      - 📅 Timestamp of detection
      - 🌐 Source & Destination IPs
      - 🚨 Type of anomaly (e.g., Brute, Syn Flood attacks, etc)
+       
     
 ![image](https://github.com/user-attachments/assets/80a574fd-378b-40b1-9762-61687c8a362b)
 
 ## Demo
 
-![image](https://github.com/user-attachments/assets/4f8bb1c1-0745-4245-b01a-0afe9222add0)
+https://github.com/user-attachments/assets/d0b232f9-9ede-4788-8ebf-e0d91e6548d9
+
 
 
 ## Contact
