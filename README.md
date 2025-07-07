@@ -125,7 +125,7 @@ To get started with the project, follow these steps:
 1. Clone the repository:
    
    ```bash
-   git clone https://github.com/Dhrishita/diabetes-prediction.git
+   git clone https://github.com/Dhrishita/Real-Time-Network-Intrusion-Detection-System.git
    cd diabetes-prediction
    
 2. Create a virtual environment and activate it:
@@ -140,6 +140,9 @@ To get started with the project, follow these steps:
    pip install -r requirements.txt
    
 4. Run the prediction script:
+
+   ```bash
+   python fr18.py
 
 
 ## Contact
